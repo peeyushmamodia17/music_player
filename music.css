@@ -1,0 +1,894 @@
+/*body stytling */
+body{
+	margin: 0px;
+    font-family: sans-serif;
+    background-color: #02021f;
+}
+
+/*header css*/
+header{
+	max-width: 90%;
+	margin: 0 auto;
+}
+/*header css logo*/
+#logo{
+	height: 80px;
+	width: 80px;
+	padding-top: 10px;
+}
+
+header{
+	display: flex;
+}
+#head1 h5{
+	padding-left: 70px;
+	color: white;
+	opacity: 0.6;
+	padding-top: 20px;
+}
+#head2{
+	padding-top: 45px;
+	padding-left: 427px;
+}
+#search{
+	background-color: #0a0a46;
+	opacity: 0.8;
+	border: none;
+	border-radius: 5%;
+	padding: 5px 15px;
+	color: white;
+}
+#bell{
+	color: white;
+	padding-left: 26px;
+	padding-top: 5px;
+}
+
+
+/*section css give display as a flex*/
+#sec{
+	max-width: 85%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 30px;
+}
+
+/*scrollbar for scrolling the section1 and section2*/
+#sec2-scroll{
+	overflow-y: scroll;
+	height: 90vh;
+}
+#sec2-scroll::-webkit-scrollbar { 
+    display: none;
+}
+
+
+/*section1 css give width 70%*/
+#sec1{
+	width: 70%;
+}
+
+/*head Images as a latest songs */
+#sec3{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+#sec3-a{
+	width: 33.33%;
+}
+#sec3-a img{
+	width: 95%;
+	opacity: 0.8;
+}
+#sec3-a img:hover{
+	transform: scale(1.4);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*latest release section css*/
+#sec4{
+	margin-top: 70px;
+	color: white;
+	width: 100%;
+	font-weight: 1.5rem;
+}
+#latest{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#release{
+	display: flex;
+	width: 50%;
+	position: relative;
+}
+	/*It show the play button on hover*/
+#release img:hover + #release-play{
+	display: block;
+}
+#release-play{
+	position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  display: none;
+}
+.fa-play{
+	font-size: 1.5rem;
+	color: white;
+	opacity: 0.7;
+}
+#release img{
+	width: 80px;
+	height: 80px;
+	padding-bottom: 15px;
+}
+#latest-content{
+	padding-left: 20px;
+	font-size: .8rem;
+}
+#latest-content p{
+	opacity: 0.6;
+}
+#time{
+	width: 50%;
+	text-align: right;
+	padding-right: 10px;
+
+}
+#time a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: white;
+	opacity: 0.6
+}
+#time p{
+	font-size: .7rem;
+	opacity: 0.6;
+}
+
+/*Popular artist section css*/
+#sec5{
+	color: white;
+	width: 100%;
+	font-weight: 1.5rem;
+	margin-top: 30px;
+}
+#sec5-artist{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#sec5-a{
+	width: 16.66%;
+	position: relative;
+}
+#sec5-a p{
+	padding-left: 25px;
+	font-size: .8rem;
+	opacity: 0.8;
+	
+}
+	/*it show play button*/
+#sec5-release-play{
+	position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: 1.8rem;
+  display: none;
+}
+#sec5-release-play .fa-play{
+	font-size: 2.2rem;
+}
+	/*It show the play button on hover*/
+#sec5-a img:hover + #sec5-release-play{
+	display: block;
+}
+#set-image{
+	width: 90%;
+	height: 70%;
+	padding: 0px 8px;
+	border-radius: 50%;
+}
+
+/*section css that show songs related enviorment like ststion, chill, retro, pop*/
+#sec6{
+	color: white;
+	width: 100%;
+	font-weight: 1.5rem;
+	margin-top: 30px;
+	background-color: #080838;
+}
+#sec6-artist{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#sec6-a{
+	width: 14%;
+	position: relative;
+}
+#set1-image{
+	width: 90%;
+/*	height: 70%;*/
+	padding: 15px 8px;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+	/*it is a css for content that show on middle of  image */
+#sec6-a-content{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+
+/*section css that show songs related  party, electronics and road trip*/
+#sec7{
+	color: white;
+	width: 100%;
+	font-weight: 1.5rem;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#sec7-a{
+	position: relative;
+	width: 33.33%;
+	overflow: hidden;
+}
+#sec7-a img{
+	width: 90%;
+	opacity: 0.8;
+}
+	/*at hover it show some transition on image*/
+#sec7-a img:hover{
+	transform: scale(1.4);
+}
+
+
+/*css for latest english songs and latest hindi songs*/
+#sec8{
+	color: white;
+	width: 100%;
+	margin-top: 30px;
+}
+#sec8-artist{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#sec8-a{
+	width: 16.66%;
+}
+#sec8-a p{
+	padding-left: 25px;
+	font-size: .8rem;
+	opacity: 0.8;
+	margin: 2px;
+}
+#set8-image{
+	width: 90%;
+	height: 70%;
+	padding: 0px 8px;
+}
+
+
+/*section2 css for playlist*/
+#sec2{
+	width: 30%;
+	position: relative;
+	margin-top: 5px;
+}
+
+/*css for header of user playlist*/
+#sec2-a h1{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	display: inline;
+}
+#sec2-a p,i{
+	display: inline;
+	color: skyblue;
+	float: right;
+	margin: 0px;z
+	padding: 0px;
+	font-size: 0.9rem;
+}
+#sec2-a i{
+	padding-left: 10px !important;
+}
+
+/*css for playlist songs */
+#sec2-b-a{
+	margin-top: 30px;
+	margin-left: 5px;
+	display: flex;
+	flex-direction: column;
+}
+#sec2-b-number{
+	float: left;
+	color: white;
+	opacity: 0.7;
+	padding: 0px 10px;
+	font-size: .6rem;
+}
+#sec2-b-image{
+	position: relative;
+	float: left;
+}
+#sec2-b-play{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: .8rem;
+  display: none;
+}
+		/*At hover on image it show play button*/
+#sec2-b-image a img:hover + #sec2-b-play{
+	display: block;
+	opacity: 1;
+}
+#sec2-b-image img{
+	width: 40px;
+	height: 40px;
+}
+#sec2-b-content{
+	color: white;
+	float: left;
+}
+#sec2-b-content-a{
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: .8rem;
+	margin-bottom: 0px;
+}
+#sec2-b-content-b{
+	margin-top: 2px;
+	margin-left: 20px;
+	font-size: .6rem;
+	opacity: 0.6;
+}
+#sec2-b-hover{
+	margin-top: 20px;
+}
+
+#sec2-b-like{
+	padding-top: 13px;
+}
+
+/*css for music playbar or bottom music player it is diplay none until user do not play song*/
+#playbar{
+	width: 100%;
+	background-color: #272424;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: none;
+}
+	/*it will show the playbar when user click on link that reference id is #playbar. so we give target to it.By that it will show when user click on link.*/
+#playbar:target{
+	display: block;
+}
+#playbar-music{
+	max-width: 85%;
+	margin: 0 auto;
+	display: flex;
+	padding-bottom: 10px;
+	
+}
+#playbar-music-image img{
+	margin-top: 15px;
+	width: 70px;
+	height: 70px;
+}
+#playbar-music-content #playbar-music-content-a{
+	color: white;
+	margin-top: 35px; 
+	font-size: .9rem;
+	opacity: 0.8;
+	margin-left: 10px;
+}
+#playbar-music-content #playbar-music-content-b{
+	color: white;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: .7rem;
+	opacity: 0.4;
+	margin-left: 10px;
+}
+#playbar-music .fa-heart{
+	margin-top: 35px;
+	margin-left: 10px;
+	color: white;
+	opacity: 0.6;
+}
+#playbar-music-bar-play{
+	margin-top: 20px;
+	padding-left: 200px; 
+}
+.fa-step-forward{
+	color: white;
+	font-size: .8rem;
+	opacity: 0.8;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.fa-step-forward:hover{
+	font-size: 1rem;
+}
+.fa-pause-circle{
+	color: white;
+	font-size: 2rem;
+}
+.fa-pause-circle:hover{
+	font-size: 2.2rem;
+	opacity: 0.9
+}
+.fa-step-backward{
+	color: white;
+	font-size: .8rem;
+	opacity: 0.8;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.fa-step-backward:hover{
+	font-size: 1rem;
+}
+.fa-random{
+	color: white;
+	font-size: .8rem;
+	opacity: 0.5;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+.fa-random:hover{
+	font-size: 1rem;
+}
+.fa-redo{
+	color: white;
+	font-size: .8rem;
+	opacity: 0.5;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.fa-redo:hover{
+	font-size: 1rem;
+}
+	/*css for timebar of music playbar*/
+#playbar-music-bar-timebar{
+	width: 100%;
+	margin-top: 70px;
+	
+}
+#playbar-music-bar-timebar-bar{
+	width: 30%;
+	border: 1px solid white;
+	
+	margin-left: 100px;
+	height: 4px;
+	background-color: #5d5757;
+	border-style: none;
+	position: absolute;
+}
+.fa-circle{
+	position: absolute;
+	left: 30%;
+	margin: 0px;
+	padding: 0px;
+	font-size: .7rem;
+	bottom: -5px;
+	color: white;
+}
+#playbar-music-bar-timebar-time{
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-size: 0.8rem;
+}
+#playbar-music-bar-timebar-time #time1{
+	margin-left: 80px;
+	float: left;
+	opacity: 0.6;
+	font-size: 0.7rem;
+}
+#playbar-music-bar-timebar-time #time2{
+	float: left;
+	margin-left: 390px;
+	opacity: 0.6;
+	font-size: 0.7rem;
+}
+#playbar-music-bar-volume{
+/*	width: 100%;*/
+	margin-left: 300px; 
+	margin-top: 40px;
+}
+.fa-volume-up{
+	color: white;
+	opacity: 0.6;
+}
+.fa-volume-up:hover{
+	font-size: 1rem;
+}
+#playbar-music-bar-volume-timebar{
+	width: 80px;
+	border: 1px solid white;
+	margin-top: 6px;
+	margin-left: 40px;
+	height: 4px;
+	background-color: #b9a8a8;
+	border-style: none;
+	position: absolute;
+}
+
+	/*media query css for less then 1100px screen for setting the music bar*/
+@media (max-width: 1100px){
+	#playbar-music-bar-volume{
+		margin-left: 129px;
+	}
+	#playbar-music-bar-timebar-time #time2{
+		margin-left: 287px;
+	}
+	#playbar-music-bar-timebar-bar{
+		margin-left: 149px;
+	}
+	#playbar-music-bar-timebar-time #time1{
+		margin-left: 120px;
+	}
+}
+
+
+
+
+
+/*play.html page css (header and section, playbar css are same as index.html)*/
+
+/*css for artist card that show all information of that artist*/
+#sec1-card{
+	width: 100%;
+	background-color: #070735;
+}
+#sec1-card-image{
+	display: flex;
+}
+#sec1-card-image img{
+	width: 300px;
+	height: 330px;
+	opacity: 0.8;
+}
+#sec1-card-image-content{
+	margin-left: 30px;
+	margin-top: 20px;
+	max-width: 470px;
+}
+#sec1-card-image-content h1{
+	color: white;
+	font-size: 1.6rem;
+	opacity: 0.9;
+	margin-bottom: 0px;
+}
+#sec1-card-image-content p{
+	color: white;
+	margin-top: 3px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	font-size: .8rem;
+	opacity: 0.5;
+}
+#sec1-card-image-content #para{
+	font-size: 0.7rem;margin-top: 7px !important;
+}
+#sec1-card-image-content #Play-button{
+	display: flex;
+}
+#sec1-card-image-content #Play-button button{
+	padding: 7px 35px;
+	color: white;
+	background-image: linear-gradient(red,yellow);
+	border-style: none;
+	margin-top: 40px;
+	float: left;
+}
+#sec1-card-image-content #para-details{
+	opacity: 0.7 !important;
+	font-size: .7rem;
+	margin-top: 10px;
+
+}
+#Play-button #para-follow{
+	margin-top: 48px;
+	margin-left: 50px;
+	opacity: 0.8;
+	font-size: .8rem;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+}
+#sec1-card-image-content #Followers{
+	float: right;
+	margin-top: 30px;
+	font-size: .7rem;
+}
+
+
+/*css for playlist of that particular artist that card will be show above*/
+#playlist-b-a{
+	margin-top: 10px;
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+#playlist-number{
+	float: left;
+	color: white;
+	opacity: 0.7;
+	padding: 0px 10px;
+	font-size: .8rem;
+}
+#playlist-b-image{
+	position: relative;
+	float: left;
+}
+#playlist-play{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: .8rem;
+  display: none;
+}
+	/*It show play button at hover by clicking that song is play*/
+#playlist-b-image a img:hover + #playlist-play{
+	display: block;
+	opacity: 1;
+}
+#playlist-b-image img{
+	width: 40px;
+	height: 40px;
+}
+#playlist-b-content{
+	color: white;
+	float: left;
+}
+#playlist-b-content-a{
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: .8rem;
+	margin-bottom: 0px;
+}
+#playlist-b-content-b{
+	margin-top: 2px;
+	margin-left: 20px;
+	font-size: .6rem;
+	opacity: 0.6;
+}
+#playlist-b-hover{
+	margin-top: 10px;
+	background-color: #21212d;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#playlist-b-like{
+	padding-top: 13px;
+	margin-right: 30px;
+}
+#playlist-b-like .fa-plus{
+	color: white;
+	opacity: 0.6;
+	padding-left: 20px;
+}
+.fa-plus:hover{
+	font-size: 1.2rem;
+}
+.fa-heart:hover{
+	font-size: 1.2rem;	
+}
+
+
+/*it show css for similar artist section in which similar artist are shown*/
+#sec2-similar-artist{
+	margin-left: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+#sec2-similar-artist-heading h1{
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 0px;
+}
+
+#sec2-similar-artist-heading a{
+	display: inline;
+	float: right;
+	opacity: 0.7;
+	font-size: .8rem;
+	color: white;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+#artist-release{
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+	/*at hover it show play button*/
+#artist-release img:hover + #artist-release-play{
+	display: block;
+}
+#artist-release-play{
+	position: absolute;
+  top: 45%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  font-weight: 1rem;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  display: none;
+}
+.fa-play{
+	font-size: 1.5rem;
+	color: white;
+	opacity: 0.7;
+}
+#artist-release img{
+	width: 80px;
+	height: 80px;
+	padding-bottom: 15px;
+}
+#artist-latest-content{
+	padding-left: 20px;
+	font-size: .8rem;
+	width: 200px;
+}
+#artist-latest-content-a{
+	opacity: 1 !important;
+}
+#artist-latest-content p{
+	opacity: 0.6;
+}
+#artist-time{
+	width: 50%;
+	text-align: right;
+	padding-right: 10px;
+
+}
+#artist-time a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: white;
+	opacity: 0.6
+}
+#artist-time p{
+	font-size: .7rem;
+	opacity: 0.6;
+}
+
+/*css for recent played section some css for this section is written above in sec2-b-a*/
+#recent-played{
+	margin-top: 30px;
+	margin-left: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+#sec2-b-a{
+	margin-top: 0px !important;
+}
+
+
+
+/*css for short page or box page that will show  they are display none until the link(...) is not clicked*/
+#target1{
+	display: none;
+}
+#target2{
+	display: none;
+}
+#target3{
+	display: none;
+}
+#target4{
+	display: none;
+}
+#latest-release-add{
+	position: absolute; 
+	width: 155px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+			/*display: none;*/
+	left: 53%;
+	top: 25%;
+}
+	/*these are have target by that they are open when click on link(...)*/
+#target1:target{
+	display: block;
+}
+#target2:target{
+	display: block;
+}
+#target3:target{
+	display: block;
+}
+#target4:target{
+	display: block;
+}
+#latest-release-add-play{
+	color: black;
+	font-size: .8rem;
+	padding: 5px 10px;
+	border-bottom: 1px solid black;
+}
+#latest-release-add-play a{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	flex-direction: row;
+}
+#latest-release-add-play p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	opacity: 0.6;
+}
+#latest-release-add-play i{
+	margin-top: 0px;
+	opacity: 0.6;
+	color: black;
+}
+#latest-release-add-play .fa-play{
+	font-size: .8rem;
+}
+#latest-release-add-queue{
+	position: absolute; 
+	width: 155px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	display: none;
+	left: 53%;
+	top: 4%;
+}
+#latest-release-add-queue:target{
+	display: block;
+}
+#latest-release-add-play-queue{
+	color: black;
+	font-size: .8rem;
+	padding: 5px 10px;
+	border-bottom: 1px solid black;
+}
+#latest-release-add-play-queue a{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	flex-direction: row;
+}
+#latest-release-add-play-queue p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	opacity: 0.6;
+}

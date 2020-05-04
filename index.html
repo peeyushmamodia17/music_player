@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title> 
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ -->
+ 	<link rel="stylesheet" type="text/css" href="/fontawesome-free-5.13.0-web/css/all.css">
+</head>
+<body>
+
+	<!-- header for music player -->
+	<header>
+		<div id="head">
+			<img id="logo" src="img/57d4b41e-76e0-4633-948a-bd593f781610_200x200.png">
+		</div>
+		<div id="head1">
+			<h5> Faviourtes</h5>
+
+		</div>
+		<div id="head2">
+			<input type="text" placeholder="Search" id="search">
+			<i id="bell" class="far fa-bell"></i>			
+		</div>
+	</header>
+
+	<!-- here we take a section and divide it in two using flex -->
+	<section id="sec">
+		<!-- this is section 1 in which all the images, latest release, artist, latest dogs are present -->
+		<div id="sec1">
+			<div id="sec2-scroll">
+			<div id="sec3">
+				<div id="sec3-a">
+					<img src="img/test_pic1579073572298.jpg">
+				</div>
+				<div id="sec3-a">
+					<img src="img/maxresdefault.jpg"">
+				</div>
+				<div id="sec3-a">
+					<img src="img/test_pic1565087524864.jpg">
+				</div>
+			</div>
+
+			<!-- Here is a latest release section in which latest songs are present -->
+			<div id="sec4">
+				<h4>Latest Release</h4>
+				<div id="latest">
+					<div id="release"> 
+						<a href="#playbar">
+						<img src="img/download (1).jpg">
+						<div id="release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<div id="latest-content">  
+							<p>Onism</p>
+							<p>Aug 11, 2017</p>
+						</div>
+						<div id="time">
+							<a href="#target1">...</a>
+							<p>4.44</p>
+						</div>
+						<!-- This is a short page. it is ope when clicking on (...) that -->
+						<div id="target1">
+						<div id="latest-release-add">
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-play"></i>
+								<p>Play Now</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-plus"></i>
+								<p>Add To Queue</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-bookmark"></i>
+								<p>Add To Favourites</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-info-circle"></i>
+								<p>Get Info</p>
+								</a>
+							</div>
+						</div>
+						</div>					
+					</div>
+					<div id="release">
+						<a href="#playbar">
+						<img src="img/download (1).jpg">
+						<div id="release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<div id="latest-content"> 
+							<p>Onism</p>
+							<p>Aug 11, 2017</p>
+						</div>	
+						<div id="time">
+							<a href="#target2">...</a>
+							<p>4.44</p>
+						</div>
+						<!-- This is a short page. it is ope when clicking on (...) that -->
+						<div id="target2">
+						<div id="latest-release-add">
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-play"></i>
+								<p>Play Now</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-plus"></i>
+								<p>Add To Queue</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-bookmark"></i>
+								<p>Add To Favourites</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-info-circle"></i>
+								<p>Get Info</p>
+								</a>
+							</div>
+						</div>
+						</div>	
+					</div>
+					<div id="release">
+						<a href="#playbar">
+						<img src="img/download (1).jpg">	
+						<div id="release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<div id="latest-content"> 
+							<p>Onism</p>
+							<p>Aug 11, 2017</p>
+						</div>	
+						<div id="time">
+							<a href="#target3">...</a>
+							<p>4.44</p>
+						</div>
+						<!-- This is a short page. it is ope when clicking on (...) that -->
+						<div id="target3">
+						<div id="latest-release-add">
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-play"></i>
+								<p>Play Now</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-plus"></i>
+								<p>Add To Queue</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-bookmark"></i>
+								<p>Add To Favourites</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-info-circle"></i>
+								<p>Get Info</p>
+								</a>
+							</div>
+						</div>
+						</div>	
+					</div>
+					<div id="release">
+						<a href="#playbar">
+						<img src="img/download (1).jpg">
+						<div id="release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<div id="latest-content"> 
+							<p>Onism</p>
+							<p>Aug 11, 2017</p>
+						</div>
+						<div id="time">
+							<a href="#target4">...</a>
+							<p>4.44</p>
+						</div>
+						<!-- This is a short page. it is ope when clicking on (...) that -->
+						<div id="target4">
+						<div id="latest-release-add">
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-play"></i>
+								<p>Play Now</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-plus"></i>
+								<p>Add To Queue</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-bookmark"></i>
+								<p>Add To Favourites</p>
+								</a>
+							</div>
+							<div id="latest-release-add-play">
+								<a href="">
+								<i class="fas fa-info-circle"></i>
+								<p>Get Info</p>
+								</a>
+							</div>
+						</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<!-- Here is popular artist section. In which artist thet are popular are shown. On clicking of that artist it show artist page with description and all songs -->
+			<div id="sec5">
+				<h4>Popular Artists</h4>
+				<div id="sec5-artist">
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/download (2).jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div>
+						</a>
+						<p>Justin Bieber</p>
+					</div>
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/images (1).jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<p>Selena Gomez</p>
+					</div>
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/images.jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<p>Ed Sheeran</p>
+					</div>
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/download (3).jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<p>Taylor Swift</p>
+					</div>
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/download (5).jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<p>Arijit Singh</p>
+					</div>
+					<div id="sec5-a">
+						<a href="play.html">
+						<img id="set-image" src="img/download (4).jpg">
+						<div id="sec5-release-play">
+							<i class="fas fa-play"></i>
+						</div></a>
+						<p>Katy Perry</p>
+					</div>
+				</div>
+			</div>
+			<!-- Here is another section that show songs releated the eviourment like station, love, retro, chill -->
+			<div id="sec6">
+				<div id="sec6-artist">
+					<div id="sec6-a">
+						<img id="set1-image" src="img/images (3).jpg">
+						<div id="sec6-a-content">
+							<p>Stations</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/download (6).jpg">
+						<div id="sec6-a-content">
+							<p>Love</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/download (7).jpg">
+						<div id="sec6-a-content">
+							<p>Retro</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/download (9).jpg">
+						<div id="sec6-a-content">
+							<p>Chill</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/picture15480811431803.jpg">
+						<div id="sec6-a-content">
+							<p>Workout</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/download (8).jpg">
+						<div id="sec6-a-content">
+							<p>Rock</p>
+						</div>
+					</div>
+					<div id="sec6-a">
+						<img id="set1-image" src="img/pop-history-300x238.jpeg">
+						<div id="sec6-a-content">
+							<p>Pop</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Here is another section that show music like party, electronic, road trip  -->
+			<div id="sec7">
+				<div id="sec7-a">
+					<img src="img/maxresdefault (3).jpg">
+					<div id="sec6-a-content">
+							<p>Party</p>
+					</div>
+				</div>
+				<div id="sec7-a">
+					<img src="img/Electronic-Music.jpg" style="height: 85%;">
+					<div id="sec6-a-content">
+							<p>Electronics</p>
+					</div>
+				</div>
+				<div id="sec7-a">
+					<img src="img/countries-drive-from-india-cover2-1280x720.jpg">
+					<div id="sec6-a-content">
+							<p>Road Trip</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Here is another section that show the latest release english songs -->
+			<div id="sec8">
+				<h4>Latest English</h4>
+				<div id="sec8-artist">
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/istockphoto-1077080640-1024x1024.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/4c8ac2a2dcf1c6e927e0d4044f8856f9--music-songs-music-albums.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/6104964767.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/4c8ac2a2dcf1c6e927e0d4044f8856f9--music-songs-music-albums.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/6104964767.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/istockphoto-1077080640-1024x1024.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Here is another section that show the latest release hindi songs -->
+			<div id="sec8">
+				<h4>Latest Hindi</h4>
+				<div id="sec8-artist">
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/istockphoto-1077080640-1024x1024.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/4c8ac2a2dcf1c6e927e0d4044f8856f9--music-songs-music-albums.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/6104964767.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/4c8ac2a2dcf1c6e927e0d4044f8856f9--music-songs-music-albums.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/6104964767.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+					<div id="sec8-a">
+						<a href="#playbar">
+						<img id="set8-image" src="img/istockphoto-1077080640-1024x1024.jpg">
+						</a>
+						<p>Onism</p>
+						<p style="font-size: .7rem;opacity: 0.6">Aug 11,2017</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- This is a section 2 which is devided from section. This section show the playlist of user -->
+		<div id="sec2">
+			<!-- It is for scrolling -->
+			<div id="sec2-scroll">
+
+			<!--It is a header of playlist  -->
+			<div id="sec2-a">
+				<h1>My Playlist</h1>
+				<a href="#latest-release-add-queue">
+				<i class="fas fa-angle-down"></i>
+				</a>
+				<p>Queue</p>
+			</div>
+			<!-- it is a short page that will show when click on angle down button -->
+			<div id="latest-release-add-queue">
+				<div id="latest-release-add-play">
+					<a href="">
+					<p>Playlists</p>
+					</a>
+				</div>
+				<div id="latest-release-add-play-queue">
+					<a href="">
+					<p>Favourites Songs</p>
+					</a>
+				</div>
+			</div>
+
+			<!-- Here is the list of all songs that are present in playlist  -->
+			<div id="sec2-b">
+					<div id="sec2-b-a">
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>01</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (1).jpg">
+								<!-- it is play button that will show when user will hover on image -->
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>02</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/test_pic1565087524864.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>03</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/pop-history-300x238.jpeg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div>
+								</a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>04</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (6).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>05</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/maxresdefault (3).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>06</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>07</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (2).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>08</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>09</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (1).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>10</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/pop-history-300x238.jpeg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>11</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (6).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>12</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (2).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>13</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div>
+								</a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- It is another section for playbar or bottom music player. It is currently hidden. It will show when clicking on play button that will be present on images. -->
+	<section id="playbar">
+		<div id="playbar-music">
+			<div id="playbar-music-image">
+				<img src="img/download (2).jpg">
+			</div>
+			<div id="playbar-music-content">
+				<p id="playbar-music-content-a">
+					Imagine By Jhones
+				</p>
+				<p id="playbar-music-content-b">
+					Jhon Lennon
+				</p>
+			</div>
+			<i class="far fa-heart"></i>
+			<!-- It is a play on/off bar with forward and backwad button -->
+			<div id="playbar-music-bar">
+				<div id="playbar-music-bar-play">
+					<i class="fas fa-redo"></i>
+					<i class="fas fa-step-forward"></i>
+					<i class="far fa-pause-circle"></i>
+					<i class="fas fa-step-backward"></i>
+					<i class="fas fa-random"></i>
+				</div>
+				<div id="playbar-music-bar-timebar">
+					<div id="playbar-music-bar-timebar-bar">
+						<i class="fas fa-circle"></i>
+					</div>
+					<div id="playbar-music-bar-timebar-time">
+						<p id="time1">
+							1.39
+						</p>
+						<p id="time2">
+							4.44
+						</p>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- it is volume section for playbar -->
+			<div id="playbar-music-bar-volume">
+					<i class="fas fa-volume-up"></i>
+					<div id="playbar-music-bar-volume-timebar">
+						<i class="fas fa-circle"></i>
+					</div>
+			</div>
+		</div>
+
+	</section>
+
+
+</body>
+</html>

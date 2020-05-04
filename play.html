@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- header for music player -->
+	<header>
+		<div id="head">
+			<img id="logo" src="img/57d4b41e-76e0-4633-948a-bd593f781610_200x200.png">
+		</div>
+		<div id="head1">
+			<h5> Faviourtes</h5>
+
+		</div>
+		<div id="head2">
+			<input type="text" placeholder="Search" id="search">
+			<i id="bell" class="far fa-bell"></i>			
+		</div>
+	</header>
+
+	<!-- here we take a section and divide it in two using flex -->
+	<section id="sec">
+
+		<!-- Here it show the song list of that artist from where u can play songs releated to that artist and the artist explanation with his image and follow button -->
+		<section id="sec1">
+			<div id="sec2-scroll">
+
+			<!-- It is card of that artist that show the explanation and image of that artist -->
+			<div id="sec1-card">
+				<div id="sec1-card-image">
+					<img src="img/Justin_Bieber_in_Rosemont,_Illinois_(2015).jpg">
+					<div id="sec1-card-image-content">
+						<p id="Followers">
+							851 Followers
+						</p>
+						<h1>Cold Play</h1>
+						
+						<p>British Band</p>
+						<p id="para">
+							Coldplay is an English rock band formed in London in 1996. The band's members are vocalist/pianist Chris Martin, guitarist Jonny Buckland, bass player Guy Berryman and drummer Will Champion.
+						</p>
+						<div id="Play-button">
+							<a href="#playbar">
+							<button>Play All</button></a>
+							<a href="" id="para-follow">Follow</a>
+						</div>
+						<p id="para-details"> 
+							247 Tracks | 128 Albums 
+						</p>	
+					</div>
+				</div>
+			</div>
+
+			<!-- This div show the plylist of that artist -->
+			<div id="playlist">
+				<div id="playlist-b">
+				<div id="playlist-b-a">
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>01</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (1).jpg">
+							<!-- it is aplay button by clicking on that or on image playbar is shown -->
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>	
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>02</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/test_pic1565087524864.jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>03</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/pop-history-300x238.jpeg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>04</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (6).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>05</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/maxresdefault (3).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>06</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/6104964767.jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>07</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (2).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>08</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/6104964767.jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>09</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (1).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>10</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/pop-history-300x238.jpeg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>11</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (6).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>12</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/download (2).jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+					<div id="playlist-b-hover">
+						<div id="playlist-number">
+							<p>13</p>
+						</div>
+						<div id="playlist-b-image">
+							<a href="#playbar">
+							<img src="img/6104964767.jpg">
+							<div id="playlist-play">
+								<i class="fas fa-play"></i>
+							</div>
+							</a>
+						</div>
+						<div id="playlist-b-content">
+							<p id="playlist-b-content-a">Mirage</p>
+							<p id="playlist-b-content-b">Else</p>
+						</div>
+						<div id="playlist-b-like">
+							<i class="fas fa-plus"></i>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<!-- Here is section 2 that show similar artist and recent played songs -->
+		<section id="sec2">
+			<div id="sec2-scroll">
+
+			<!--Here is div that show similar artist section. By clicking on images it take on artist page  -->
+			<div id="sec2-similar-artist">
+				<div id="sec2-similar-artist-heading">
+					<a href=""> View All</a>
+					<h1>Similar Artists</h1>
+					
+				</div>
+				<div id="artist-release">
+					<a href="play.html">
+					<img src="img/download (1).jpg">
+					<div id="artist-release-play">
+						<i class="fas fa-play"></i>
+					</div></a>
+					<div id="artist-latest-content"> 
+						<p id="artist-latest-content-a">Imagine dragon</p>
+						<p>Pop Band</p>
+					</div>	
+					<div id="artist-time">
+						<a href="">...</a>
+						<p>4.44</p>
+					</div>
+				</div>
+				<div id="artist-release">
+					<a href="play.html">
+					<img src="img/download (1).jpg">
+					<div id="artist-release-play">
+						<i class="fas fa-play"></i>
+					</div></a>
+					<div id="artist-latest-content"> 
+						<p id="artist-latest-content-a">Imagine dragon</p>
+						<p>Pop Band</p>
+					</div>	
+					<div id="artist-time">
+						<a href="">...</a>
+						<p>4.44</p>
+					</div>
+				</div>
+				<div id="artist-release">
+					<a href="play.html">
+					<img src="img/download (1).jpg">
+					<div id="artist-release-play">
+						<i class="fas fa-play"></i>
+					</div></a>
+					<div id="artist-latest-content"> 
+						<p id="artist-latest-content-a">Imagine dragon</p>
+						<p>Pop Band</p>
+					</div>	
+					<div id="artist-time">
+						<a href="">...</a>
+						<p>4.44</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Here is a div that show the recent played songs by the user  -->
+			<div id="recent-played">
+				<div id="sec2-similar-artist-heading">
+					<a href=""> View All</a>
+					<h1>Recent Played</h1>		
+				</div>
+				<div id="sec2-b">
+					<div id="sec2-b-a">
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>01</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (1).jpg">
+								<!-- It is a play button that will show on image by hover it. and by clicking on that button or on image it shw the playbar -->
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>02</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/test_pic1565087524864.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>03</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/pop-history-300x238.jpeg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div>
+								</a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>04</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (6).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>05</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/maxresdefault (3).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>06</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>07</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (2).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>08</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>09</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (1).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>10</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/pop-history-300x238.jpeg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>11</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (6).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>12</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/download (2).jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div></a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+						<div id="sec2-b-hover">
+							<div id="sec2-b-number">
+								<p>13</p>
+							</div>
+							<div id="sec2-b-image">
+								<a href="#playbar">
+								<img src="img/6104964767.jpg">
+								<div id="sec2-b-play">
+									<i class="fas fa-play"></i>
+								</div>
+								</a>
+							</div>
+							<div id="sec2-b-content">
+								<p id="sec2-b-content-a">Mirage</p>
+								<p id="sec2-b-content-b">Else</p>
+							</div>
+							<div id="sec2-b-like">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+	</section>
+
+	<!-- It is another section for playbar or bottom music player. It is currently hidden. It will show when clicking on play button that will be present on images. -->
+	<section id="playbar">
+		<div id="playbar-music">
+			<div id="playbar-music-image">
+				<img src="img/download (2).jpg">
+			</div>
+			<div id="playbar-music-content">
+				<p id="playbar-music-content-a">
+					Imagine By Jhones
+				</p>
+				<p id="playbar-music-content-b">
+					Jhon Lennon
+				</p>
+			</div>
+			<i class="far fa-heart"></i>
+			<!-- It is a play on/off bar with forward and backwad button -->
+			<div id="playbar-music-bar">
+				<div id="playbar-music-bar-play">
+					<i class="fas fa-redo"></i>
+					<i class="fas fa-step-forward"></i>
+					<i class="far fa-pause-circle"></i>
+					<i class="fas fa-step-backward"></i>
+					<i class="fas fa-random"></i>
+				</div>
+				<div id="playbar-music-bar-timebar">
+					<div id="playbar-music-bar-timebar-bar">
+						<i class="fas fa-circle"></i>
+					</div>
+					<div id="playbar-music-bar-timebar-time">
+						<p id="time1">
+							1.39
+						</p>
+						<p id="time2">
+							4.44
+						</p>
+					</div>
+				</div>
+				
+			</div>
+			<!-- it is volume section for playbar -->
+			<div id="playbar-music-bar-volume">
+					<i class="fas fa-volume-up"></i>
+					<div id="playbar-music-bar-volume-timebar">
+						<i class="fas fa-circle"></i>
+					</div>
+			</div>
+		</div>
+
+	</section>
+</body>
+</html>
